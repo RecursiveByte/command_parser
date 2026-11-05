@@ -1,5 +1,6 @@
 # Large trained model files
 models/
+training/output/
 
 # Python
 __pycache__/
