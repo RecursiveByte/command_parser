@@ -1,0 +1,22 @@
+master:
+  data:
+    type: persistentVolumeClaim
+    size: 1Gi
+
+volume:
+  dataDirs:
+    - name: data
+      type: persistentVolumeClaim
+      size: 3Gi
+      maxVolumes: 0
+
+filer:
+  data:
+    type: persistentVolumeClaim
+    size: 1Gi
+
+s3:
+  enabled: true
+  createBuckets:
+    - name: datasets
+    - name: models

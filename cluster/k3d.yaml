@@ -1,0 +1,24 @@
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+
+metadata:
+  name: kd-cloud
+
+image: rancher/k3s:v1.34.1-k3s1
+
+servers: 1
+agents: 1
+
+ports:
+  - port: 8080:80
+    nodeFilters:
+      - loadbalancer
+
+options:
+  k3d:
+    wait: true
+    timeout: "300s"
+
+  kubeconfig:
+    updateDefaultKubeconfig: true
+    switchCurrentContext: true

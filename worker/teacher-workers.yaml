@@ -1,0 +1,39 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: teacher-worker-0
+  namespace: pipeline
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: teacher-worker
+          image: command-worker:latest
+          imagePullPolicy: Never
+          env:
+            - name: SHARD_INDEX
+              value: "0"
+            - name: SHARD_COUNT
+              value: "2"
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: teacher-worker-1
+  namespace: pipeline
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: teacher-worker
+          image: command-worker:latest
+          imagePullPolicy: Never
+          env:
+            - name: SHARD_INDEX
+              value: "1"
+            - name: SHARD_COUNT
+              value: "2"

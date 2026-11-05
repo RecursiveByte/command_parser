@@ -1,0 +1,738 @@
+[
+  {
+    "record": {
+      "id": "C0059",
+      "text": "what time is it in des moines",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"now\",\"place\":\"Des Moines\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0098",
+      "text": "please tell me about a hour before thursday about my hair appointment",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"Thursday\",\"time\":\"an hour before\",\"place\":\"my hair appointment\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0111",
+      "text": "set an event happy birthday john to repeat on twenty one january two thousand and seventeen",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"Januносиve January 21, 2017\",\"time\":\"repeat\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0132",
+      "text": "where are the boston redso game playing next",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":null,\"time\":null,\"place\":\"Boston Red Sox\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0358",
+      "text": "add lunch appointment with lisa to january second at twelve thirty pm",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"Januзуary second\",\"time\":\"twelve thirty pm\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0360",
+      "text": "it seems cold",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0457",
+      "text": "clear all events from march seven",
+      "teacher_raw": "{\"intent\":\"calendar_remove\",\"date\":\"March 7\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0566",
+      "text": "its not possible",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0576",
+      "text": "please check third event of twenty second of march twenty seventeen",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"March 20, 2 extr.\", \"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0630",
+      "text": "i need a repeating reminder for every monday at three hundred and thirty pm",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"every monday\",\"time\":\"three thirty pm\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0634",
+      "text": "on january twenty five set meeting for twelve",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"Januзуary twenty five\",\"time\":\"twelve\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0642",
+      "text": "then tap ok",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0711",
+      "text": "remind me about my meeting with joe at ten on monday",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"monday\",\"time\":\"ten am\",\"place\":\"meeting with joe\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0730",
+      "text": "what is the weather next week in pasadena ca",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"next week\",\"time\":null,\"place\":\"Pasadena, CA\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0785",
+      "text": "what time does the sun set",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"sunset\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0828",
+      "text": "set the alarm for two hours from now",
+      "teacher_raw": "{\"intent\":\"alarm_set\",\"date\":\"two hours from now\",\"time\":\"current time\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0927",
+      "text": "hey make sure i go to sarahs birthday party on the twelveth",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"the twelveth\",\"time\":null,\"place\":\"Sarah'thy birthday party\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0951",
+      "text": "please tell me current events for the day",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"today\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C0975",
+      "text": "on january twenty five set meeting for twelve",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"Januзуary twenty five\",\"time\":\"twelve\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1084",
+      "text": "do i need pants",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1094",
+      "text": "is there anything i need to be aware of",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1105",
+      "text": "hey is it going to rain today in brooklyn new york",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"today\",\"time\":null,\"place\":\"Brooklyn, New York\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1111",
+      "text": "set a reminder for a meeting at two pm tomorrow between myself and john",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"tomorrow\",\"time\":\"two pm\",\"place\":\"meeting with john\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1167",
+      "text": "please let me know what time seven pm is in pst",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"seven pm PST\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1185",
+      "text": "please set a reminder of raju marriage on thirty first of march twenty seventeen",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"twenty seventeen-march-thirty first\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1213",
+      "text": "remind me off about my tomorrow meeting sharply at ten",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"tomorrow\",\"time\":\"ten am\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1216",
+      "text": "hey what time is it in orlando florida",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"now\",\"place\":\"Orlando, Florida\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1241",
+      "text": "weather for next eight days san antonio texas",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"next eight days\",\"time\":\"all day\",\"place\":\"san antonio texas\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1301",
+      "text": "is wyatt's birthday party at ten pm",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":null,\"time\":\"ten pm\",\"place\":\"wyatt'sin birthday party\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1311",
+      "text": "did i forget anything",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1346",
+      "text": "remember to remind me about client meet at four pm",
+      "teacher_raw": "{\"intent\":\"reminder_set\",\"date\":null,\"time\":\"four pm\",\"place\":\"client meet\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1348",
+      "text": "ten past seven",
+      "teacher_raw": "{\"intent\":\"time_query\",\"date\":null,\"time\":\"ten past seven\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1391",
+      "text": "does my calendar say i'm free on april one two thousand and seventeen",
+      "teacher_raw": "{\"intent\":\"calendar_query\",\"date\":\"April 1, 2017\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1437",
+      "text": "what's the current time in orlando florida",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"current\",\"place\":\"Orlando, Florida\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1442",
+      "text": "add to calendar every year on may two is mary's birthday",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"May 2\",\"time\":\"every year\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1474",
+      "text": "alert me about birthday of wife in advance",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":null,\"time\":null,\"place\":\"wife'dictation\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1498",
+      "text": "what will be the temperature today for miami florida",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"today\",\"time\":null,\"place\":\"Miami, Florida\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1527",
+      "text": "get me the details of upcoming oscar two thousand and seventeen",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"2021\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1540",
+      "text": "how many hours remaining to reach midnight in city",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"until midnight\",\"place\":\"city\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1549",
+      "text": "tell me what time it is right now",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"now\",\"time\":\"current\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1556",
+      "text": "olly set up a daily reminder for me please",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"daily\",\"time\":\"morning\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1609",
+      "text": "hey olly what time is it in orlando florida",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"what time\",\"place\":\"Orlando, Florida\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1702",
+      "text": "i'm going to the oar concert in paris on march twenty four",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"March 24\",\"time\":null,\"place\":\"Paris\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1741",
+      "text": "can you add my brother's birthday dinner at rusk for march twenty third",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"March 23rd\",\"time\":null,\"place\":\"Rusk\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1798",
+      "text": "my calendar to be added with bola birthday of twelveth july",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"twelfthy july\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1817",
+      "text": "please remove the parent teacher conference scheduled on march seven",
+      "teacher_raw": "{\"intent\":\"calendar_remove\",\"date\":\"March 7\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1850",
+      "text": "put me in on tuesday the twenty first at ten with al",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"the twenty first\",\"time\":\"ten am\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1871",
+      "text": "please remind me of",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1885",
+      "text": "what time is it in miami florida",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"now\",\"place\":\"miami florida\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1897",
+      "text": "remind me about the march sixteen meeting",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"March 16\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1934",
+      "text": "add a reminder on thursdays at eleven and thirty am and name it dance classes",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"thursdays\",\"time\":\"eleven thirty am\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1951",
+      "text": "remind me of meeting five minutes before time",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"five minutes before\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C1964",
+      "text": "whether it would be sunny in califonia",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":null,\"time\":null,\"place\":\"California\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2042",
+      "text": "set a reminder for fifteen minutes to change laundry loads",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"in fifteen minutes\",\"time\":\"to change laundry loads\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2079",
+      "text": "add valia's wedding the next saturday at eight o clock",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"the next saturday\",\"time\":\"eight o clock\",\"place\":\"valia'thy wedding\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2080",
+      "text": "when is the next boston redso game",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"next\",\"time\":\"\",\"place\":\"Boston Red Sox\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2128",
+      "text": "please remind me",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2139",
+      "text": "please give me a two hour warning before next saturdays meeting",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"next Saturday\",\"time\":\"two hours before\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2199",
+      "text": "what is the correct time",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2230",
+      "text": "its very dangerous one",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2234",
+      "text": "alert me in three hours",
+      "teacher_raw": "{\"intent\":\"alarm_set\",\"date\":\"in three hours\",\"time\":\"at three hours\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2238",
+      "text": "is it currently snowing",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2273",
+      "text": "can you set the location to my sisters house for this event",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"this event\",\"time\":null,\"place\":\"my sister' extral\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2276",
+      "text": "pencil me in for sarahs birthday party on the twelveth",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"the twelveth\",\"time\":null,\"place\":\"Sarah'thy birthday party\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2315",
+      "text": "set an alarm for tomorrow morning at eight",
+      "teacher_raw": "{\"intent\":\"alarm_set\",\"date\":\"tomorrow\",\"time\":\"eight am\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2358",
+      "text": "whether it would be sunny in califonia",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":null,\"time\":null,\"place\":\"California\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2382",
+      "text": "set regular bi-weekly meeting on fridays three pm",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"every other Friday\",\"time\":\"three pm\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2392",
+      "text": "how many seconds are left to complete this hour",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"today\",\"time\":\"this hour\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2395",
+      "text": "what is my upcoming calendar event",
+      "teacher_raw": "{\"intent\":\"calendar_query\",\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2399",
+      "text": "is it going to freeze overnight",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"overnight\",\"time\":\"midnight\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2473",
+      "text": "what was the date of two wednesdays back from today",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"two wednesdays ago\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2508",
+      "text": "please remind me the birthday of my uncle joe every may fourth",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"May 4th\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2541",
+      "text": "by proper formula",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2546",
+      "text": "when is the twenty second",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"twenty second\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2577",
+      "text": "delete grocery shopping from my saturday schedule",
+      "teacher_raw": "{\"intent\":\"calendar_remove\",\"date\":\"this saturday\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2617",
+      "text": "what's going on",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2629",
+      "text": "it is hot today is not it",
+      "teacher_raw": "{\"intent\":null,\"date\":\"today\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2650",
+      "text": "weather report of the week",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":\"week\",\"time\":\"today\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2768",
+      "text": "what day and time is the acme meeting in san diego california",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":\"the day\",\"time\":\"the time\",\"place\":\"san diego california\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2773",
+      "text": "i would ask it to play the beep sound continuously",
+      "teacher_raw": "{\"intent\":null,\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2780",
+      "text": "do i have an appointment for january the third",
+      "teacher_raw": "{\"intent\":\"calendar_query\",\"date\":\"Januthy the third\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2787",
+      "text": "set a two day notification before maria's birthday please",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"two day before maria's birthday\",\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2793",
+      "text": "i'm going to the oar concert in paris on march twenty four",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"March 24\",\"time\":null,\"place\":\"Paris\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2840",
+      "text": "what events are happening in pondichery this weekend",
+      "teacher_raw": "{\"intent\":\"recommendation_events\",\"date\":\"this weekend\",\"time\":null,\"place\":\"pondichery\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2873",
+      "text": "what is the time difference between here and dakar",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":null,\"place\":\"here,dakar\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2916",
+      "text": "add a notification reminder and calendar event for thursday at seven am labeled sales meeting please",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"thursday\",\"time\":\"seven am\",\"place\":null,\"label\":\"sales meeting\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2941",
+      "text": "i need to set a reminder to go to a work meeting on friday at two hundred pm",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"friday\",\"time\":\"two hundred pm\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2958",
+      "text": "date of joining",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":null,\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2967",
+      "text": "set up a daily reminder for me",
+      "teacher_raw": "{\"intent\":\"calendar_set\",\"date\":\"daily\",\"time\":\"every day\",\"place\":null}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2987",
+      "text": "remind me when i reach",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":null,\"place\":\"where i reach\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2996",
+      "text": "what time is it in cleveland ohio",
+      "teacher_raw": "{\"intent\":\"datetime_query\",\"date\":null,\"time\":\"now\",\"place\":\"cleveland ohio\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  },
+  {
+    "record": {
+      "id": "C2998",
+      "text": "weather fulton missouri",
+      "teacher_raw": "{\"intent\":\"weather_query\",\"date\":null,\"time\":null,\"place\":\"Fulton, Missouri\"}"
+    },
+    "rejection_reason": "unresolved_after_regeneration"
+  }
+]
