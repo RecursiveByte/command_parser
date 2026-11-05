@@ -1,0 +1,12 @@
+{
+  "model": "student_v1",
+  "total_examples": 100,
+  "correct_predictions": 42,
+  "incorrect_predictions": 58,
+  "exact_match_accuracy": 0.42,
+  "valid_json_rate": 1.0,
+  "intent_accuracy": 0.78,
+  "date_accuracy": 0.79,
+  "time_accuracy": 0.84,
+  "place_accuracy": 0.83
+}
