@@ -1,0 +1,14 @@
+model_name: "EleutherAI/pythia-70m"
+dataset_path: "data/train_v3.jsonl"
+train_samples: 1500
+seed: 42
+learning_rate: 0.00005
+batch_size: 2
+epochs: 3
+max_seq_length: 128
+device: "cpu"
+output_dir: "training/output/v1"
+loss_csv: "training/loss.csv"
+python_version: "3.13.2"
+pytorch_version: "2.11.0+cpu"
+transformers_version: "5.4.0"
