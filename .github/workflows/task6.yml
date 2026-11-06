@@ -1,0 +1,66 @@
+name: Task 6 CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  task6:
+    name: Task 6 Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r service/requirements.txt
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install ruff
+
+      - name: Lint
+        run: |
+          ruff check training/score.py tests/test_score.py
+
+      - name: Unit Tests
+        run: |
+          python -m unittest discover -s tests -p "test_score.py" -v
+
+      - name: Download Model from GitHub Release
+        run: |
+          mkdir -p models/v2
+
+          BASE_URL="https://github.com/RecursiveByte/command_parser/releases/download/v2"
+
+          curl -fL "$BASE_URL/config.json" -o models/v2/config.json
+          curl -fL "$BASE_URL/generation_config.json" -o models/v2/generation_config.json
+          curl -fL "$BASE_URL/model.safetensors" -o models/v2/model.safetensors
+          curl -fL "$BASE_URL/tokenizer.json" -o models/v2/tokenizer.json
+          curl -fL "$BASE_URL/tokenizer_config.json" -o models/v2/tokenizer_config.json
+
+      - name: Model Evaluation
+        run: |
+          python training/score.py \
+            --model models/v2 \
+            --validation data/validation.jsonl
+
+      - name: Quality Gate
+        run: |
+          python training/score.py \
+            --model models/v2 \
+            --validation data/validation.jsonl \
+            --min-validity 95
+
+      - name: Gitleaks Secret Scan
+        uses: gitleaks/gitleaks-action@v2
