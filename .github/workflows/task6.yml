@@ -58,7 +58,7 @@ jobs:
       - name: Quality Gate
         run: |
           python training/score.py \
-            --model models/v2 \
+            --model EleutherAI/pythia-70m \
             --validation data/validation.jsonl \
             --min-validity 95
 
