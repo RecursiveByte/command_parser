@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/parse,HTTPError('502 Server Error: Bad Gateway for url: /parse'),2,2026-11-06T10:11:42Z,2026-11-06T10:12:24Z
