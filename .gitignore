@@ -7,6 +7,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+s3-config.json
 
 # Environment variables
 .env
